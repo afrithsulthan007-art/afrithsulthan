@@ -79,10 +79,10 @@ const seoKeywords = [
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Afrith Sulthan - Custom Web & Software Development | Full Stack Developer',
+    default: 'Afrith Sulthan | Full Stack Web & Software Developer',
     template: '%s | Afrith Sulthan'
   },
-  description: 'Full stack developer & custom software development specialist building high-performance web applications, SaaS MVPs, custom CRM/ERP systems, eCommerce platforms, and business automation software for startups and small businesses.',
+  description: 'Full stack developer building high-performance web apps, SaaS MVPs, custom CRM & ERP systems, and eCommerce software for startups and growing businesses.',
   keywords: seoKeywords,
   authors: [{ name: 'Afrith Sulthan', url: siteUrl }],
   creator: 'Afrith Sulthan',
@@ -92,8 +92,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Afrith Sulthan - Custom Web & Software Development | Full Stack Developer',
-    description: 'High-performance web applications, SaaS MVPs, custom CRM/ERP systems, eCommerce platforms, and business automation solutions engineered for real growth.',
+    title: 'Afrith Sulthan | Full Stack Web & Software Developer',
+    description: 'Full stack developer building high-performance web apps, SaaS MVPs, custom CRM & ERP systems, and eCommerce software for startups and growing businesses.',
     url: siteUrl,
     siteName: 'Afrith Sulthan Portfolio',
     images: [
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
         url: '/images/img-removebg-preview-20-281-29.png',
         width: 800,
         height: 600,
-        alt: 'Afrith Sulthan - Full Stack Developer & Custom Software Solutions',
+        alt: 'Afrith Sulthan - Full Stack Web & Custom Software Developer',
       },
     ],
     locale: 'en_US',
@@ -109,8 +109,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Afrith Sulthan - Custom Web & Software Development',
-    description: 'Custom web application development, SaaS MVP development, CRM/ERP systems, and business automation software.',
+    title: 'Afrith Sulthan | Full Stack Web & Software Developer',
+    description: 'Full stack developer building high-performance web apps, SaaS MVPs, custom CRM & ERP systems, and eCommerce software.',
     images: ['/images/img-removebg-preview-20-281-29.png'],
   },
   icons: {

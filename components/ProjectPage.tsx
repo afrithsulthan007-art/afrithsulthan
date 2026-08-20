@@ -215,11 +215,11 @@ export default function ProjectPage() {
                                 </div>
 
                                 {/* Full-Container Hover Expansion Overlay */}
-                                <div className="absolute inset-0 z-20 opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none group-hover:pointer-events-auto overflow-hidden rounded-[28px] sm:rounded-[36px]">
+                                <div aria-hidden="true" className="absolute inset-0 z-20 opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none group-hover:pointer-events-auto overflow-hidden rounded-[28px] sm:rounded-[36px]">
                                     {/* Expanded Full-Bleed Image */}
                                     <Image
                                         src={project.image}
-                                        alt={project.title}
+                                        alt=""
                                         fill
                                         className="object-cover object-top scale-105 group-hover:scale-100 transition-transform duration-700 ease-out"
                                         sizes="100vw"
@@ -235,12 +235,12 @@ export default function ProjectPage() {
                                                 {project.category}
                                             </span>
 
-                                            <h4 className="text-3xl sm:text-5xl font-black text-white tracking-tight drop-shadow-md">
+                                            <span className="text-3xl sm:text-5xl font-black text-white tracking-tight drop-shadow-md">
                                                 {project.title}
-                                            </h4>
+                                            </span>
 
                                             <p className="text-xs sm:text-base text-slate-200 font-medium max-w-md line-clamp-2 drop-shadow-sm">
-                                                {project.oneLiner}
+                                                Interactive Production Showcase & Live Storefront
                                             </p>
 
                                             {/* Primary Glowing Action Button */}

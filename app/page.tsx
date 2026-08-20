@@ -103,7 +103,7 @@ export default function Home() {
       onMouseLeave={handleMouseUp}
     >
       <h1 className="sr-only">
-        Afrith Sulthan - Full Stack Web Developer & Custom Software Development Company | Custom Web Applications, SaaS MVP, CRM & ERP Software Solutions
+        Afrith Sulthan - Full Stack Web & Custom Software Developer
       </h1>
       {/* Fixed Hero Layer */}
       <div className="fixed inset-0 z-0 flex items-center justify-center overflow-hidden pointer-events-none">
