@@ -1,8 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import dynamic from "next/dynamic"
-import AboutSection from "@/components/AboutSection"
 import ScrollText from "@/components/ScrollText"
 import HeroImage from "@/components/HeroImage"
 import NavBar from "@/components/NavBar"
@@ -11,8 +9,7 @@ import ContactSection from "@/components/ContactSection"
 import ServicesSection from "@/components/ServicesSection"
 import FinalImageSection from "@/components/FinalImageSection"
 import CompanyMarquee from "@/components/CompanyMarquee"
-
-// const FloatingAssistant = dynamic(() => import("@/components/FloatingAssistant"), { ssr: false })
+import FaqSection from "@/components/FaqSection"
 
 export default function Home() {
   const [afirthPos, setAfirthPos] = useState({ x: 0, y: 0 })
@@ -75,24 +72,6 @@ export default function Home() {
   const sulthanScrollX = scrollProgress * windowWidth * 0.8
   const textOpacity = Math.max(0, 1 - scrollProgress * 1.2)
 
-  // Image transition logic:
-  // 1. Start centered (static)
-  // 2. Text transition completes (around 0.83)
-  // 3. Image moves Left AND Down
-  const imageMoveStart = 0.8
-  const imageMoveEnd = 1.5
-  let moveProgress = 0
-
-  if (scrollProgress > imageMoveStart) {
-    moveProgress = (scrollProgress - imageMoveStart) / (imageMoveEnd - imageMoveStart)
-    moveProgress = Math.min(1, moveProgress)
-  }
-
-  // Target positions: Left (-25vw) and Down (+10vh)
-  const xOffset = moveProgress * -25
-  const yOffset = moveProgress * 10
-
-  // Keep image visible for About section (until ~200vh / scrollProgress 2.0)
   const heroImageOpacity = Math.max(0, 1 - Math.max(0, scrollProgress - 1.5) * 2)
 
   return (
@@ -148,9 +127,7 @@ export default function Home() {
         {/* Spacer to reveal Hero */}
         <div className="w-full h-screen bg-transparent pointer-events-none" />
 
-
         <div id="home">
-          <AboutSection />
           <CompanyMarquee />
         </div>
         <div id="services">
@@ -160,11 +137,11 @@ export default function Home() {
           <ProjectPage />
         </div>
         <FinalImageSection />
+        <FaqSection />
         <div id="contact">
           <ContactSection />
         </div>
 
-        {/* <FloatingAssistant /> */}
         <NavBar />
       </div>
     </div>

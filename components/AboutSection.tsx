@@ -136,56 +136,6 @@ export default function AboutSection() {
 
         </div>
 
-        {/* Frequently Asked Questions (FAQ) Section - Boosts SEO Word Count & Structured Content */}
-        <div className="mt-16 pt-12 border-t border-slate-200/80">
-          <div className="text-center mb-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold text-[#0B132A] tracking-tight">
-              Frequently Asked Questions About My Development Process
-            </h3>
-            <p className="text-slate-500 text-xs sm:text-sm mt-2">
-              Everything you need to know about partnering on custom software and web development projects.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200/70">
-              <h4 className="font-bold text-slate-900 text-sm sm:text-base mb-2">
-                What technologies do you use for custom software development?
-              </h4>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                I specialize in full stack modern web development using React, Next.js, TypeScript, Tailwind CSS on the frontend, and Python, Django, Node.js, PostgreSQL, and REST/GraphQL APIs on the backend.
-              </p>
-            </div>
-
-            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200/70">
-              <h4 className="font-bold text-slate-900 text-sm sm:text-base mb-2">
-                How long does it take to build a SaaS MVP or custom CRM?
-              </h4>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Typical SaaS MVP builds take 3-5 weeks from planning to production deployment. Custom CRM and ERP software projects usually take 4-8 weeks depending on integration requirements.
-              </p>
-            </div>
-
-            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200/70">
-              <h4 className="font-bold text-slate-900 text-sm sm:text-base mb-2">
-                Do you provide ongoing technical support and SEO maintenance?
-              </h4>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Yes! Every project includes post-launch support, performance monitoring, continuous security updates, and technical SEO optimizations to keep your application running fast and ranking high.
-              </p>
-            </div>
-
-            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200/70">
-              <h4 className="font-bold text-slate-900 text-sm sm:text-base mb-2">
-                Can you integrate existing business tools like WhatsApp, Stripe, or CRM platforms?
-              </h4>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Absolutely. I build custom API integrations, webhook pipelines, automated billing engines, and direct messaging workflows to sync your software with any third-party service seamlessly.
-              </p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
   )

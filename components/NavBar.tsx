@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Home, Briefcase, LayoutGrid, MessageSquare, Tag } from "lucide-react"
+import { Home, User, Briefcase, LayoutGrid, MessageSquare } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -15,6 +15,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
     { name: "Home", href: "/", icon: Home },
+    { name: "About", href: "/about", icon: User },
     { name: "Services", href: "/#services", icon: Briefcase },
     { name: "Projects", href: "/#projects", icon: LayoutGrid },
     { name: "Contact", href: "/#contact", icon: MessageSquare },
