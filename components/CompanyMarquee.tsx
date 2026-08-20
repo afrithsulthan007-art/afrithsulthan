@@ -93,7 +93,7 @@ export default function CompanyMarquee() {
                                 <div className="relative w-full h-full flex items-center justify-center">
                                     <Image
                                         src={company.logo}
-                                        alt={company.name}
+                                        alt={`${company.name} Client Logo`}
                                         width={220}
                                         height={80}
                                         className={company.imgClass}

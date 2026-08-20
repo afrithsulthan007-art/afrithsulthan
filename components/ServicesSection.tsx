@@ -352,9 +352,9 @@ export default function ServicesSection() {
                                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6 pt-6 pb-6 items-start relative z-10">
                                     {/* Deliverables Column */}
                                     <div className="md:col-span-6">
-                                        <h4 className="text-[11px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">
+                                        <div className="text-[11px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">
                                             DELIVERABLES
-                                        </h4>
+                                        </div>
                                         <div className="flex flex-wrap gap-2">
                                             {activeService.deliverables.map((tag, idx) => (
                                                 <span
@@ -370,9 +370,9 @@ export default function ServicesSection() {
                                     {/* Est. Timeline Column */}
                                     <div className="md:col-span-6 flex flex-col justify-between">
                                         <div className="flex items-center justify-between mb-4">
-                                            <h4 className="text-[11px] sm:text-xs font-bold text-[#4F46E5] uppercase tracking-wider">
+                                            <div className="text-[11px] sm:text-xs font-bold text-[#4F46E5] uppercase tracking-wider">
                                                 EST. TIMELINE
-                                            </h4>
+                                            </div>
                                             <span className="text-sm sm:text-base font-bold text-[#A31622]">
                                                 {activeService.timeline}
                                             </span>

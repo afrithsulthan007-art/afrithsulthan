@@ -135,7 +135,7 @@ export default function Home() {
         {/* Center image */}
         <HeroImage
           src="/images/img-removebg-preview-20-281-29.png"
-          alt="Man in beige blazer"
+          alt="Afrith Sulthan - Full Stack Web & Custom Software Developer"
           xOffset={0}
           yOffset={0}
           visibility={heroImageOpacity}

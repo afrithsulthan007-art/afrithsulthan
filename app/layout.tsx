@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     default: 'Afrith Sulthan | Full Stack Web & Software Developer',
     template: '%s | Afrith Sulthan'
   },
-  description: 'Full stack developer building high-performance web apps, SaaS MVPs, custom CRM & ERP systems, and eCommerce software for startups and growing businesses.',
+  description: 'Full stack web developer building high-performance web apps, SaaS MVPs, custom CRM/ERP systems, and eCommerce software for growing businesses.',
   keywords: seoKeywords,
   authors: [{ name: 'Afrith Sulthan', url: siteUrl }],
   creator: 'Afrith Sulthan',
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Afrith Sulthan | Full Stack Web & Software Developer',
-    description: 'Full stack developer building high-performance web apps, SaaS MVPs, custom CRM & ERP systems, and eCommerce software for startups and growing businesses.',
+    description: 'Full stack web developer building high-performance web apps, SaaS MVPs, custom CRM/ERP systems, and eCommerce software for growing businesses.',
     url: siteUrl,
     siteName: 'Afrith Sulthan Portfolio',
     images: [

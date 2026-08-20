@@ -15,7 +15,7 @@ export default function FinalImageSection() {
             >
                 <Image
                     src="/me-reading.png?v=final"
-                    alt="Afrith reading"
+                    alt="Afrith Sulthan - Software Engineer & Full Stack Web Developer"
                     fill
                     className="object-cover object-center"
                     priority

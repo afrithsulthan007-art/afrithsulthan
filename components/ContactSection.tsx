@@ -333,11 +333,14 @@ export default function ContactSection() {
 
                         {/* SEO Internal Linking Footer */}
                         <nav aria-label="Footer Navigation">
-                            <ul className="flex flex-wrap justify-center gap-6 text-sm font-bold text-zinc-500">
+                            <ul className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs sm:text-sm font-bold text-zinc-500">
                                 <li><a href="#home" className="hover:text-black transition-colors">Home</a></li>
-                                <li><a href="#services" className="hover:text-black transition-colors">Services</a></li>
-                                <li><a href="#projects" className="hover:text-black transition-colors">Projects</a></li>
-                                <li><a href="#contact" className="hover:text-black transition-colors">Contact</a></li>
+                                <li><a href="#about" className="hover:text-black transition-colors">About Afrith</a></li>
+                                <li><a href="#services" className="hover:text-black transition-colors">Custom Software Services</a></li>
+                                <li><a href="#projects" className="hover:text-black transition-colors">Case Studies & Projects</a></li>
+                                <li><a href="#contact" className="hover:text-black transition-colors">Contact & Pricing</a></li>
+                                <li><a href="/services" className="hover:text-black transition-colors">Service Catalog</a></li>
+                                <li><a href="/sitemap.xml" className="hover:text-black transition-colors">Sitemap</a></li>
                                 <li><a href="https://github.com/AAFRITHSULTHAN" className="hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                                 <li><a href="https://www.linkedin.com/in/afrith-sulthan-544aab28b" className="hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                             </ul>

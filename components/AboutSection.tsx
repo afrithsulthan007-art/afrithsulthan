@@ -68,7 +68,7 @@ export default function AboutSection() {
             </p>
 
             <p>
-              My development stack includes <strong>React, Next.js, TypeScript, Tailwind CSS, Python, Django, PostgreSQL, REST/GraphQL APIs, and Docker</strong>. Every solution is engineered from scratch with a relentless focus on Core Web Vitals, mobile responsiveness, search engine optimization (SEO), and conversion-optimized design.
+              My development stack includes <strong>React, Next.js, TypeScript</strong>, <strong>Python, Django, PostgreSQL</strong>, and <strong>REST & GraphQL APIs</strong>. Every solution is engineered from scratch with a relentless focus on Core Web Vitals, mobile responsiveness, search engine optimization (SEO), and conversion-optimized design.
             </p>
 
             {/* Quick Links inside copy for internal SEO linking */}
